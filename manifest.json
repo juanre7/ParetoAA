@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Artificial Analysis Pareto Overlay",
+  "version": "0.1.0",
+  "description": "Draws Pareto frontiers on Artificial Analysis Recharts scatter plots.",
+  "content_scripts": [
+    {
+      "matches": ["https://artificialanalysis.ai/*"],
+      "js": ["extension/content.js"],
+      "run_at": "document_idle"
+    }
+  ]
+}
