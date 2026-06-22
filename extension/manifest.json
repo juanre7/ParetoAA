@@ -3,6 +3,12 @@
   "name": "Artificial Analysis Pareto Overlay",
   "version": "0.1.0",
   "description": "Draws Pareto frontiers on Artificial Analysis Recharts scatter plots.",
+  "icons": {
+    "16": "icons/icon16.png",
+    "32": "icons/icon32.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
   "content_scripts": [
     {
       "matches": ["https://artificialanalysis.ai/*"],
