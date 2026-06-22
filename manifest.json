@@ -7,7 +7,7 @@
     "16": "extension/icons/icon16.png",
     "32": "extension/icons/icon32.png",
     "48": "extension/icons/icon48.png",
-    "128": "extension/icons/icon128.png"
+    "128": "extension/icons/chrome-web-store-icon-128.png"
   },
   "content_scripts": [
     {
